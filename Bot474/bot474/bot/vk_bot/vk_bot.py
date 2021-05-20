@@ -13,7 +13,7 @@ class DoesNotFill(Exception):
 
 class VkBot():
 
-    token = "205825285e79dc8a9e130bee96cd0791cf2ff835e55b8b5d0a04b03e17a1940d3cef5c40a81a08b30f0fa"
+    token = ""
 
     def __init__(self):
         self.vk = vk_api.VkApi(token=VkBot.token)
